@@ -1,11 +1,11 @@
-import './App.css';
+import UserInput from './components/UserInput/UserInput';
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Hello React</h1>
+      <UserInput />
     </div>
   );
-}
+};
 
 export default App;
