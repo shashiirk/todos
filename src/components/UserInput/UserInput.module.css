@@ -1,0 +1,48 @@
+.form {
+  width: 100%;
+  margin: 32px 0;
+}
+
+.inputBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  border-radius: 18px;
+  box-shadow: 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.inputBox button {
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  width: 34px;
+  height: 30px;
+  font-size: 28px;
+  font-weight: 500;
+  background-color: #f84c6f;
+  color: #050406;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.inputBox input {
+  background-color: transparent;
+  font: inherit;
+  font-size: 18px;
+  color: inherit;
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 14px 0 14px 8px;
+}
+
+.inputBox input::placeholder {
+  color: #888;
+}
+
+.form:focus-within .inputBox {
+  box-shadow: 0 0 4px #f84c6f;
+}

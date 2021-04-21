@@ -1,0 +1,8 @@
+.cbButton {
+  width: 20px;
+  height: 20px;
+  border: 2px #f84c6f solid;
+  border-radius: 8px;
+  background: transparent;
+  margin-right: 8px;
+}
