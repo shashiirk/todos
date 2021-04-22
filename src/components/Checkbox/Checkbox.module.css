@@ -3,6 +3,22 @@
   height: 20px;
   border: 2px #f84c6f solid;
   border-radius: 8px;
-  background: transparent;
+  background-color: transparent;
   margin-right: 8px;
+  cursor: pointer;
+  position: relative;
+}
+
+.cbButton.checked {
+  background-color: #f84c6f;
+  color: #050406;
+}
+
+.cbButton.checked::before {
+  content: '\2714';
+  position: absolute;
+  top: -5%;
+  left: 0;
+  height: 100%;
+  width: 100%;
 }

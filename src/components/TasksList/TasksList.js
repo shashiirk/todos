@@ -5,7 +5,13 @@ const TasksList = (props) => {
   return (
     <ul className={styles.taskslist}>
       {props.items.map((task, index) => (
-        <Task key={index} task={task} />
+        <Task
+          key={task.id}
+          id={task.id}
+          task={task}
+          onDelete={props.onDeleteTask}
+          onUpdate={props.onUpdateTask}
+        />
       ))}
     </ul>
   );

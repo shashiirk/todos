@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { nanoid } from 'nanoid';
 import styles from './UserInput.module.css';
 
 const UserInput = (props) => {
@@ -10,7 +11,11 @@ const UserInput = (props) => {
     if (userInput.trim().length === 0) {
       return;
     } else {
-      props.onAddTask({ title: userInput.trim(), status: 0 });
+      props.onAddTask({
+        id: nanoid(10),
+        title: userInput.trim(),
+        status: false,
+      });
       setUserInput('');
     }
   };
