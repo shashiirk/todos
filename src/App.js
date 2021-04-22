@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Header from './components/Header/Header';
 import UserInput from './components/UserInput/UserInput';
 import TasksList from './components/TasksList/TasksList';
 import './App.css';
@@ -42,13 +43,16 @@ const App = () => {
   };
 
   return (
-    <div className="container">
-      <UserInput onAddTask={addTaskHandler} />
-      <TasksList
-        items={tasksList}
-        onDeleteTask={deleteTaskHandler}
-        onUpdateTask={updateTaskHandler}
-      />
+    <div className="outer-container">
+      <Header />
+      <div className="inner-container">
+        <UserInput onAddTask={addTaskHandler} />
+        <TasksList
+          items={tasksList}
+          onDeleteTask={deleteTaskHandler}
+          onUpdateTask={updateTaskHandler}
+        />
+      </div>
     </div>
   );
 };

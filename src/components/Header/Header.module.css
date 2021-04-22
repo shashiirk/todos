@@ -1,0 +1,12 @@
+.title {
+  font-size: 54px;
+  text-align: center;
+  margin: 32px 0 48px;
+  line-height: 1.4;
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 32px;
+  }
+}

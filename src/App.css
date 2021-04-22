@@ -1,6 +1,12 @@
-.container {
-  max-width: 500px;
+.outer-container {
+  max-width: 800px;
   width: 100%;
   padding: 14px;
+  margin: auto;
+}
+
+.inner-container {
+  max-width: 500px;
+  width: 100%;
   margin: auto;
 }
