@@ -44,5 +44,5 @@
 }
 
 .form:focus-within .inputBox {
-  box-shadow: 0 0 4px #f84c6f;
+  box-shadow: 0 0 4px 2px #f84c6f;
 }
