@@ -2,10 +2,16 @@ import styles from './Checkbox.module.css';
 
 const Checkbox = (props) => {
   return (
-    <button
-      onClick={props.onClick}
-      className={`${styles.cbButton} ${props.status ? styles.checked : ''}`}
-    ></button>
+    <>
+      {!props.status && (
+        <button onClick={props.onClick} className={styles.cbButton1}></button>
+      )}
+      {props.status && (
+        <button onClick={props.onClick} className={styles.cbButton2}>
+          <i className="fas fa-check"></i>
+        </button>
+      )}
+    </>
   );
 };
 

@@ -18,7 +18,7 @@ const Task = (props) => {
         className={styles.delete}
         onClick={() => props.onDelete(props.id)}
       >
-        &#10006;
+        <i className="fas fa-times"></i>
       </button>
     </li>
   );

@@ -1,4 +1,4 @@
-.cbButton {
+.cbButton1 {
   width: 20px;
   height: 20px;
   border: 2px #f84c6f solid;
@@ -6,21 +6,15 @@
   background-color: transparent;
   margin-right: 8px;
   cursor: pointer;
-  position: relative;
 }
 
-.cbButton.checked {
+.cbButton2 {
+  width: 20px;
+  height: 20px;
+  border: 2px #f84c6f solid;
+  border-radius: 8px;
   background-color: #f84c6f;
   color: #050406;
-}
-
-.cbButton.checked::before {
-  content: '\2714';
-  background-color: #f84c6f !important;
-  color: #050406 !important;
-  position: absolute;
-  top: -5%;
-  left: 0;
-  height: 100%;
-  width: 100%;
+  margin-right: 8px;
+  cursor: pointer;
 }
