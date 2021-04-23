@@ -14,8 +14,8 @@
 }
 
 .task .delete {
-  background-color: transparent;
-  color: white;
+  background-color: transparent !important;
+  color: white !important;
   border-radius: 50%;
   border: none;
   outline: none;

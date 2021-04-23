@@ -16,6 +16,8 @@
 
 .cbButton.checked::before {
   content: '\2714';
+  background-color: #f84c6f !important;
+  color: #050406 !important;
   position: absolute;
   top: -5%;
   left: 0;
