@@ -25,3 +25,12 @@ Start the application
 ```
 npm start
 ```
+
+## Tools
+
+- [React](https://reactjs.org)
+- [Create React App](https://create-react-app.dev/)
+
+## Credits
+
+Design inspiration from [here](https://dribbble.com/shots/15185058-Collection-Tasks).
