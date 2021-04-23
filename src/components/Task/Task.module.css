@@ -11,7 +11,6 @@
 
 .task.checked p {
   text-decoration: line-through 1px white solid;
-  opacity: 0.75;
 }
 
 .task .delete {

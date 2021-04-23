@@ -17,4 +17,7 @@
   color: #050406;
   margin-right: 8px;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
