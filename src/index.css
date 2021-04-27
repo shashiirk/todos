@@ -9,6 +9,6 @@ body {
   background-color: #050406;
   color: white;
   min-height: 100vh;
-  overflow: hidden;
+  overflow-x: hidden;
   -webkit-tap-highlight-color: transparent;
 }
