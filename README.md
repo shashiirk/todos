@@ -6,6 +6,10 @@ A simple Todo app to manage and keep track of all your tasks.
 
 ![preview](https://user-images.githubusercontent.com/48406108/116239641-85f4d680-a780-11eb-80ff-474e570c8f9a.jpg)
 
+## Live Demo
+
+See it live [here](https://shashiirk.github.io/todo-app).
+
 ## Get Started
 
 Clone this repository to your local machine
@@ -34,3 +38,7 @@ $ npm start
 ## Credits
 
 Design inspiration from [here](https://dribbble.com/shots/15185058-Collection-Tasks).
+
+## Licence
+
+[MIT](https://choosealicense.com/licenses/mit)
