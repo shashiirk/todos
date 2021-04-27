@@ -1,0 +1,22 @@
+.footer {
+  font-size: 18px;
+  text-align: center;
+  padding: 20px 14px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #f84c6f;
+}
+
+@media (hover: hover) {
+  .footer a:hover {
+    text-decoration: underline 1px #f84c6f solid;
+  }
+}
+
+@media (hover: none) {
+  .footer a:active {
+    text-decoration: underline 1px #f84c6f solid;
+  }
+}
