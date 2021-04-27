@@ -4,7 +4,7 @@ A simple Todo app to manage and keep track of all your tasks.
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/48406108/115962142-90705f80-a537-11eb-8b8d-957fbbfa5507.jpg)
+![preview](https://user-images.githubusercontent.com/48406108/116239641-85f4d680-a780-11eb-80ff-474e570c8f9a.jpg)
 
 ## Get Started
 
