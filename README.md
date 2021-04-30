@@ -8,7 +8,7 @@ A simple Todo app to manage and keep track of all your tasks.
 
 ## Live Demo
 
-See it live [here](https://shashiirk.github.io/todo-app).
+See it live [here](https://shashiirk.github.io/todos).
 
 ## Get Started
 
@@ -37,7 +37,7 @@ $ npm start
 
 ## Credits
 
-Design inspiration from [here](https://dribbble.com/shots/15185058-Collection-Tasks).
+Design inspiration from [here](https://dribbble.com/shots/15185058).
 
 ## Licence
 
