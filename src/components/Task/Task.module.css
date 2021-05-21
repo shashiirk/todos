@@ -1,5 +1,5 @@
 .task {
-  background-color: #151416;
+  background-color: #262d35;
   padding: 14px;
   border-radius: 18px;
   font-size: 18px;
@@ -10,7 +10,8 @@
 }
 
 .task.checked p {
-  text-decoration: line-through 1px white solid;
+  text-decoration: line-through 1px #7c8185 solid;
+  color: #7c8185;
 }
 
 .task .delete {

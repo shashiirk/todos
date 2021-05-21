@@ -20,8 +20,8 @@
   height: 30px;
   font-size: 28px;
   font-weight: 500;
-  background-color: #f84c6f;
-  color: #050406;
+  background-color: #14f373;
+  color: #141d26;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,9 +40,9 @@
 }
 
 .inputBox input::placeholder {
-  color: #888;
+  color: #7c8185;
 }
 
 .form:focus-within .inputBox {
-  box-shadow: 0 0 2px 2px #f84c6f;
+  box-shadow: 0 0 2px 2px #14f373;
 }

@@ -6,17 +6,17 @@
 
 .footer a {
   text-decoration: none;
-  color: #f84c6f;
+  color: #14f373;
 }
 
 @media (hover: hover) {
   .footer a:hover {
-    text-decoration: underline 1px #f84c6f solid;
+    text-decoration: underline 1px #14f373 solid;
   }
 }
 
 @media (hover: none) {
   .footer a:active {
-    text-decoration: underline 1px #f84c6f solid;
+    text-decoration: underline 1px #14f373 solid;
   }
 }
