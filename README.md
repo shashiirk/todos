@@ -10,7 +10,7 @@ A simple Todo app to manage and keep track of all your tasks.
 
 See it live [here](https://shashiirk.github.io/todos).
 
-## Get Started
+## Installation
 
 Clone this repository to your local machine
 
