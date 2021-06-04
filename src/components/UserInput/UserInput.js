@@ -33,7 +33,9 @@ const UserInput = (props) => {
           onChange={userInputHandler}
           value={userInput}
         />
-        <button type="submit">+</button>
+        <button type="submit">
+          <i className="fas fa-plus"></i>
+        </button>
       </div>
     </form>
   );
