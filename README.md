@@ -15,7 +15,7 @@ See it live [here](https://shashiirk.github.io/todos).
 Clone this repository to your local machine
 
 ```
-$ git clone https://github.com/shashiirk/todo-app.git
+$ git clone https://github.com/shashiirk/todos.git
 ```
 
 Install all the dependencies
