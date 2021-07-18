@@ -37,13 +37,27 @@ const App = () => {
     });
   };
 
-  const updateTaskHandler = (taskId) => {
+  const updateTaskStatusHandler = (taskId) => {
     setTasksList((prevTasks) => {
       const taskIndex = prevTasks.findIndex((task) => task.id === taskId);
       const existingTask = prevTasks[taskIndex];
       const updatedTask = {
         ...existingTask,
         status: !existingTask.status,
+      };
+      const updatedTasksList = [...prevTasks];
+      updatedTasksList[taskIndex] = updatedTask;
+      return updatedTasksList;
+    });
+  };
+
+  const updateTaskTitleHandler = (taskId, taskTitle) => {
+    setTasksList((prevTasks) => {
+      const taskIndex = prevTasks.findIndex((task) => task.id === taskId);
+      const existingTask = prevTasks[taskIndex];
+      const updatedTask = {
+        ...existingTask,
+        title: taskTitle,
       };
       const updatedTasksList = [...prevTasks];
       updatedTasksList[taskIndex] = updatedTask;
@@ -60,7 +74,8 @@ const App = () => {
           <TasksList
             items={tasksList}
             onDeleteTask={deleteTaskHandler}
-            onUpdateTask={updateTaskHandler}
+            onUpdateTaskStatus={updateTaskStatusHandler}
+            onUpdateTaskTitle={updateTaskTitleHandler}
           />
         </div>
       </div>

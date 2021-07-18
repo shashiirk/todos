@@ -10,7 +10,8 @@ const TasksList = (props) => {
           id={task.id}
           task={task}
           onDelete={props.onDeleteTask}
-          onUpdate={props.onUpdateTask}
+          onUpdateStatus={props.onUpdateTaskStatus}
+          onUpdateTitle={props.onUpdateTaskTitle}
         />
       ))}
     </ul>
