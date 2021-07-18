@@ -4,7 +4,7 @@ A simple Todo app to manage and keep track of all your tasks.
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/48406108/119082043-e17e5100-ba1a-11eb-9762-b94c8357a496.jpg)
+![preview](https://user-images.githubusercontent.com/48406108/126071991-d48be036-866a-4b74-9e1b-56d75bdaef3c.png)
 
 ## Live Demo
 
@@ -41,4 +41,4 @@ Design inspiration from [here](https://dribbble.com/shots/15185058).
 
 ## Licence
 
-[MIT](https://choosealicense.com/licenses/mit)
+This project is licensed under [MIT](https://choosealicense.com/licenses/mit).
