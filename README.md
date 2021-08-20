@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://an-image-gallery.netlify.app">
+  <a href="https://shashiirk.github.io/todos">
     <img alt="logo" src="public/logo.svg" width="60" />
   </a>
 </p>
