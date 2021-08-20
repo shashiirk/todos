@@ -1,4 +1,13 @@
-# Todos
+<p align="center">
+  <a href="https://an-image-gallery.netlify.app">
+    <img alt="logo" src="public/logo.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Todos
+</h1>
+
+## Description
 
 A simple Todo app to manage and keep track of all your tasks.
 
