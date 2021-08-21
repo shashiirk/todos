@@ -50,4 +50,4 @@ Design inspiration from [here](https://dribbble.com/shots/15185058).
 
 ## Licence
 
-This project is licensed under [MIT](https://choosealicense.com/licenses/mit).
+This project is licensed under [MIT](LICENSE).
