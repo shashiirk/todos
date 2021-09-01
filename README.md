@@ -13,11 +13,18 @@ A simple Todo app to manage and keep track of all your tasks.
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/48406108/126072338-73a8ba7c-17b6-4d4b-b0de-2a1e16891400.jpg)
+![preview](https://user-images.githubusercontent.com/48406108/131673094-0b312cdb-4595-41e6-86f5-f7b1c71b14bd.gif)
 
 ## Live Demo
 
 See it live [here](https://shashiirk.github.io/todos).
+
+## Features
+
+- Create a new todo item
+- Update an existing todo item
+- Delete an existing todo item
+- Items are saved in local storage
 
 ## Installation
 
