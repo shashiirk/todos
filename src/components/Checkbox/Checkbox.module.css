@@ -1,8 +1,8 @@
 .cbButton1 {
   width: 20px;
   height: 20px;
-  border: 2px #14f373 solid;
-  border-radius: 8px;
+  border: 2px #10c45c solid;
+  border-radius: 6px;
   background-color: transparent;
   margin-right: 8px;
   cursor: pointer;
@@ -11,10 +11,10 @@
 .cbButton2 {
   width: 20px;
   height: 20px;
-  border: 2px #14f373 solid;
-  border-radius: 8px;
-  background-color: #14f373;
-  color: #141d26;
+  border: 2px #10c45c solid;
+  border-radius: 6px;
+  background-color: #10c45c;
+  color: #334155;
   margin-right: 8px;
   cursor: pointer;
   display: flex;

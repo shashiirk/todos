@@ -1,21 +1,23 @@
 .footer {
   text-align: center;
+  color: #94a3b8;
+  font-size: 14px;
   padding: 24px 16px;
 }
 
 .footer a {
   text-decoration: none;
-  color: #14f373;
+  color: inherit;
 }
 
 @media (hover: hover) {
   .footer a:hover {
-    text-decoration: underline 1px #14f373 solid;
+    text-decoration: underline 1px #94a3b8 solid;
   }
 }
 
 @media (hover: none) {
   .footer a:active {
-    text-decoration: underline 1px #14f373 solid;
+    text-decoration: underline 1px #94a3b8 solid;
   }
 }

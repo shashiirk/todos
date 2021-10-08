@@ -68,9 +68,11 @@ const App = () => {
   return (
     <>
       <div className="outer-container">
-        <Header />
-        <div className="inner-container">
+        <div className="main-container">
+          <Header />
           <UserInput onAddTask={addTaskHandler} />
+        </div>
+        <div className="inner-container">
           <TasksList
             items={tasksList}
             onDeleteTask={deleteTaskHandler}

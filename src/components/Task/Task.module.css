@@ -1,16 +1,19 @@
 .task {
-  background-color: #262d35;
-  padding: 14px;
-  border-radius: 18px;
-  margin-bottom: 10px;
+  background-color: #334155;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  border-bottom: 1px #475569 solid;
+}
+
+.task:last-child {
+  border-bottom: none;
 }
 
 .task textarea {
-  background-color: #262d35;
-  color: white;
+  background-color: #334155;
+  color: inherit;
   margin-right: 4px;
   flex: 1;
   font: inherit;
@@ -24,13 +27,24 @@
 }
 
 .task.checked textarea {
-  text-decoration: line-through 1px #7c8185 solid;
-  color: #7c8185;
+  text-decoration: line-through 1px #94a3b8 solid;
+  color: #94a3b8;
+}
+
+.task .edit {
+  background-color: transparent;
+  color: inherit;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  align-self: center;
+  margin-right: 8px;
 }
 
 .task .delete {
   background-color: transparent;
-  color: white;
+  color: inherit;
   border-radius: 50%;
   border: none;
   outline: none;

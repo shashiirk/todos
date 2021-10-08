@@ -1,12 +1,16 @@
 .outer-container {
   min-height: calc(100vh - 68px);
-  max-width: 800px;
-  width: 100%;
-  padding: 14px;
   margin: auto;
 }
 
+.main-container {
+  padding: 16px;
+  background: #10c45c;
+  background-image: linear-gradient(45deg, #10c45c 0%, #4151e5 100%);
+}
+
 .inner-container {
+  padding: 16px;
   max-width: 500px;
   width: 100%;
   margin: auto;
