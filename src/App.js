@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import { DragDropContext } from 'react-beautiful-dnd';
+
 import Header from './components/Header/Header';
 import UserInput from './components/UserInput/UserInput';
 import TasksList from './components/TasksList/TasksList';
@@ -65,6 +67,16 @@ const App = () => {
     });
   };
 
+  const dragEndHandler = (result) => {
+    if (result.destination) {
+      const items = Array.from(tasksList);
+      const [item] = items.splice(result.source.index, 1);
+      items.splice(result.destination.index, 0, item);
+
+      setTasksList(items);
+    }
+  };
+
   return (
     <>
       <div className="outer-container">
@@ -73,12 +85,14 @@ const App = () => {
           <UserInput onAddTask={addTaskHandler} />
         </div>
         <div className="inner-container">
-          <TasksList
-            items={tasksList}
-            onDeleteTask={deleteTaskHandler}
-            onUpdateTaskStatus={updateTaskStatusHandler}
-            onUpdateTaskTitle={updateTaskTitleHandler}
-          />
+          <DragDropContext onDragEnd={dragEndHandler}>
+            <TasksList
+              items={tasksList}
+              onDeleteTask={deleteTaskHandler}
+              onUpdateTaskStatus={updateTaskStatusHandler}
+              onUpdateTaskTitle={updateTaskTitleHandler}
+            />
+          </DragDropContext>
         </div>
       </div>
       <Footer />

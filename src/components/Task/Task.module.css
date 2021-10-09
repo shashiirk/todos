@@ -1,21 +1,17 @@
 .task {
-  background-color: #334155;
-  padding: 16px;
+  background-color: #1e293b;
+  padding: 18px 16px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  border-bottom: 1px #475569 solid;
-}
-
-.task:last-child {
-  border-bottom: none;
 }
 
 .task textarea {
-  background-color: #334155;
+  background-color: inherit;
   color: inherit;
-  margin-right: 4px;
+  margin-right: 8px;
   flex: 1;
+  width: 100%;
   font: inherit;
   padding-right: 12px;
   height: 0px;
