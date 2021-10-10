@@ -13,7 +13,7 @@ A simple Todo app to manage and keep track of all your tasks.
 
 ## Preview
 
-![preview](https://user-images.githubusercontent.com/48406108/131673094-0b312cdb-4595-41e6-86f5-f7b1c71b14bd.gif)
+![preview](https://user-images.githubusercontent.com/48406108/136684484-0aaddb36-2bd3-49f1-a059-7f59119fabe1.gif)
 
 ## Live Demo
 
@@ -25,6 +25,8 @@ See it live [here](https://shashiirk.github.io/todos).
 - Update an existing todo item
 - Delete an existing todo item
 - Items are saved in local storage
+- Drag and drop to reorder items
+- Illustration for empty state
 
 ## Installation
 
@@ -50,10 +52,7 @@ $ npm start
 
 - [React](https://reactjs.org)
 - [Create React App](https://create-react-app.dev/)
-
-## Credits
-
-Design inspiration from [here](https://dribbble.com/shots/15185058).
+- [React Beautiful Dnd](https://www.npmjs.com/package/react-beautiful-dnd)
 
 ## Licence
 

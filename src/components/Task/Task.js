@@ -59,11 +59,9 @@ const Task = (props) => {
 
   return (
     <Draggable draggableId={props.id} index={props.index}>
-      {(provided, snapshot) => (
+      {(provided) => (
         <li
-          className={`${styles.task} ${status ? styles.checked : ''} ${
-            snapshot.isDragging ? styles.dragging : ''
-          }`}
+          className={`${styles.task} ${status ? styles.checked : ''}`}
           {...provided.draggableProps}
           {...provided.dragHandleProps}
           ref={provided.innerRef}
