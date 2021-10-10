@@ -1,6 +1,8 @@
 .outer-container {
   min-height: calc(100vh - 68px);
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-container {
@@ -10,8 +12,11 @@
 }
 
 .inner-container {
+  flex: 1;
   padding: 16px;
   max-width: 540px;
   width: 100%;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
