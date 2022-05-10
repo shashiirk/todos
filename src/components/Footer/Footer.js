@@ -6,7 +6,7 @@ const Footer = () => {
       <p>
         Built by{' '}
         <a
-          href="https://shashiirk.github.io/portfolio"
+          href="https://shashi.vercel.app/"
           target="_blank"
           rel="noreferrer"
         >
